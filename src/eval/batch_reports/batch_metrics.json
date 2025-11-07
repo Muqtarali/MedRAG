@@ -1,0 +1,56 @@
+{
+  "per_query": {
+    "q1": {
+      "query": "What is a common cause of community-acquired pneumonia in adults?",
+      "ap": 1.0,
+      "ndcg": 1.0,
+      "mrr": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "retrieved": [
+        "sample1"
+      ],
+      "relevant": {
+        "sample1": 1
+      },
+      "report_path": "src/eval/batch_reports\\reports\\q1.json"
+    },
+    "q2": {
+      "query": "A 22-year-old with burning on urination and lower abdominal cramps — what is the likely diagnosis and recommended tests?",
+      "ap": 0.0,
+      "ndcg": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "retrieved": [
+        "sample1"
+      ],
+      "relevant": {
+        "sample1": 0
+      },
+      "report_path": "src/eval/batch_reports\\reports\\q2.json"
+    },
+    "q3": {
+      "query": "Recommended empirical antibiotics for uncomplicated community-acquired pneumonia in adults?",
+      "ap": 0.0,
+      "ndcg": 0.0,
+      "mrr": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "retrieved": [
+        "sample1"
+      ],
+      "relevant": {
+        "sample1": 0
+      },
+      "report_path": "src/eval/batch_reports\\reports\\q3.json"
+    }
+  },
+  "summary": {
+    "map": 0.3333333333333333,
+    "mean_ndcg": 0.3333333333333333,
+    "mean_mrr": 0.3333333333333333,
+    "mean_precision": 0.3333333333333333,
+    "mean_recall": 0.3333333333333333
+  }
+}

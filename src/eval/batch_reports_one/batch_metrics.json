@@ -1,0 +1,26 @@
+{
+  "per_query": {
+    "q_single": {
+      "query": "Given the patient data (22-year-old with lower abdominal cramps and dysuria), what is the most likely diagnosis and recommended diagnostic tests and empiric management?",
+      "ap": 1.0,
+      "ndcg": 1.0,
+      "mrr": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "retrieved": [
+        "sample1"
+      ],
+      "relevant": {
+        "sample1": 1
+      },
+      "report_path": "src/eval/batch_reports_one\\reports\\q_single.json"
+    }
+  },
+  "summary": {
+    "map": 1.0,
+    "mean_ndcg": 1.0,
+    "mean_mrr": 1.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0
+  }
+}

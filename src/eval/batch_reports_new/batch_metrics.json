@@ -1,0 +1,26 @@
+{
+  "per_query": {
+    "q_new": {
+      "query": "Given the patient data (45-year-old with fever, productive cough and pleuritic chest pain), what is the most likely diagnosis, recommended diagnostic tests, and empiric antibiotic management?",
+      "ap": 1.0,
+      "ndcg": 1.0,
+      "mrr": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "retrieved": [
+        "sample1"
+      ],
+      "relevant": {
+        "sample1": 1
+      },
+      "report_path": "src/eval/batch_reports_new\\reports\\q_new.json"
+    }
+  },
+  "summary": {
+    "map": 1.0,
+    "mean_ndcg": 1.0,
+    "mean_mrr": 1.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0
+  }
+}

@@ -1,0 +1,4 @@
+qid,ap,ndcg,mrr,precision,recall,retrieved
+q1,1.0,1.0,1.0,1.0,1.0,sample1
+q2,0.0,0.0,0.0,0.0,0.0,sample1
+q3,0.0,0.0,0.0,0.0,0.0,sample1
